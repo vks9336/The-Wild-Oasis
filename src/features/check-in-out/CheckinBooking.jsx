@@ -7,7 +7,7 @@ import ButtonGroup from '../../ui/ButtonGroup';
 import Button from '../../ui/Button';
 import ButtonText from '../../ui/ButtonText';
 // import Box from '../../ui/Box';
-import CheckBox from '../../ui/CheckBox';
+import Checkbox from '../../ui/Checkbox';
 
 import Spinner from '../../ui/Spinner';
 import { useMoveBack } from '../../hooks/useMoveBack';
@@ -77,7 +77,7 @@ function CheckinBooking() {
       <BookingDataBox booking={booking} />
       {!hasBreakfast && (
         <Box>
-          <CheckBox
+          <Checkbox
             checked={addBreakfast}
             onChange={() => {
               setAddBreakfast((add) => !add);
@@ -86,11 +86,11 @@ function CheckinBooking() {
             id="breakfast"
           >
             Want to add breakfast for {formatCurrency(optionalBreakFastPrice)}?
-          </CheckBox>
+          </Checkbox>
         </Box>
       )}
       <Box>
-        <CheckBox
+        <Checkbox
           checked={confirmPaid}
           onChange={() => setConfirmPaid((paid) => !paid)}
           id="confinm"
@@ -105,7 +105,7 @@ function CheckinBooking() {
             `(${formatCurrency(totalPrice)} + ${formatCurrency(
               optionalBreakFastPrice,
             )})`}
-        </CheckBox>
+        </Checkbox>
       </Box>
 
       <ButtonGroup>
