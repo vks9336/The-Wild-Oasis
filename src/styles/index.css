@@ -105,6 +105,14 @@ button {
   cursor: pointer;
 }
 
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.4rem;
+  margin-right: 2.4rem;
+}
+
 *:disabled {
   cursor: not-allowed;
 }

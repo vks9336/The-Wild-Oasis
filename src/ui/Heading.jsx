@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
-
-// const text = 'text-align: center;';
+// const text = 'text-align: center;
 
 const Heading = styled.h1`
   ${(props) =>
@@ -34,7 +33,7 @@ const Heading = styled.h1`
     `}
 
     line-height: 1.4;
-  color: #000000;
+  color: ${(props) => props.theme.text};
 `;
 
 export default Heading;

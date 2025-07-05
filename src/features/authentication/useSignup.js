@@ -11,7 +11,9 @@ export function useSignup() {
       toast.success(
         "Account successfully created! Please verify the new account from the user's email address",
       );
-      queryClient.invalidateQueries({ action: true });
+      queryClient.invalidateQueries({
+        queryKey: ['user'],
+      });
     },
     onError: (err) => toast.error(err.message),
   });
