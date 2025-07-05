@@ -39,9 +39,14 @@ This project is a playground of modern React practices, offering a dark-themed, 
 
 ## 🖼️ Sneak Peek
 
-> _“UI so crisp, you might just eat it.”_ 
---- <img width="947" alt="image" src="https://github.com/user-attachments/assets/fe716ae2-eddb-4ee2-94fd-3bec4accea1b" />
---- <img width="959" alt="image" src="https://github.com/user-attachments/assets/c9d17a9e-7231-41bf-9daf-26fb86e0a937" />
+> _“UI so crisp, you might just eat it.”_
+> <img width="947" alt="image" src="https://github.com/user-attachments/assets/fe716ae2-eddb-4ee2-94fd-3bec4accea1b" />
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/d72044ff-ebba-4b82-857e-05957b0c9252" />
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/a595240c-43b7-4d20-b925-3c5945b1b0d7" />
+<img width="941" alt="image" src="https://github.com/user-attachments/assets/1622f61d-352a-49de-b9ca-c6256754b50b" />
+
+
+
 
 
 
