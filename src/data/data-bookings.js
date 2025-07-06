@@ -172,6 +172,17 @@ export const bookings = [
     numGuests: 4,
   },
   {
+    created_at: fromToday(0, true),
+    startDate: fromToday(0),
+    endDate: fromToday(22),
+    cabinId: 5,
+    guestId: 16,
+    hasBreakfast: true,
+    observations: '',
+    isPaid: true,
+    numGuests: 24,
+  },
+  {
     created_at: fromToday(-4, true),
     startDate: fromToday(-4),
     endDate: fromToday(-1),
