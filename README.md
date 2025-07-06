@@ -39,18 +39,23 @@ This project is a playground of modern React practices, offering a dark-themed, 
 
 ## 🖼️ Sneak Peek
 
-> _“UI so crisp, you might just eat it.”_  
+> _“UI so crisp, you might just eat it.”_
+> <img width="947" alt="image" src="https://github.com/user-attachments/assets/fe716ae2-eddb-4ee2-94fd-3bec4accea1b" />
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/d72044ff-ebba-4b82-857e-05957b0c9252" />
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/a595240c-43b7-4d20-b925-3c5945b1b0d7" />
+<img width="941" alt="image" src="https://github.com/user-attachments/assets/1622f61d-352a-49de-b9ca-c6256754b50b" />
 
-_Add screenshots or screen recording GIFs here once you're ready to show off._
 
----
+
+
+
 
 ## 🛠️ Run Locally
 
 Clone the project and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/the-wild-oasis.git
+git clone https://github.com/vks9336/the-wild-oasis.git
 cd the-wild-oasis
 npm install
 npm run dev
